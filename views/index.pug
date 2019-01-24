@@ -1,0 +1,52 @@
+extends layout
+block content
+  .container-fluid
+    .row
+      .col-md-2.col-sm-0
+      .col-md-8.col-sm-12.text-center.main.welcome
+        h1 Välkommen till BildTerapiHuset!
+      
+      .col-md-2.col-sm-0
+    .row
+      .col-md-2.col-sm-0
+      .col-md-8.col-sm-12.text-center.main
+        img.img-fluid(src="/images/DavidStreched.png", alt="Insert David" id="David")
+      
+      .col-md-2.col-sm-0
+    .row
+      .col-md-2.col-sm-0
+      .col-md-8.col-sm-12.text-center.main
+        .container-fluid
+          .row
+            .col-2
+            .col-8
+              p.welcomeText Vecka 4 så kommer Åke Grundsberg ha en utställning där han presenterar sina konsverk i en artiljé som befinner sig på andra våningen och kommer att vara öppen för allmänheten mellan klockan halv fem och 16:30, det kommer att bjudas på kex med ost samt gurkvatten som du får ta med en vit plastkopp.
+            .col-2
+      .col-md-2.col-sm-0
+block foot
+  footer.sticky-bottom    
+    .container-fluid
+      .row
+        .col-md-2.col-sm-0
+        .col-md-8.col-sm-12.foot
+          .container-fluid
+            .row
+              .col-12.text-center
+                h1 Här finns vi!
+            .row
+              .col-md-6
+                .container-fluid
+                  .row
+                    .col-4
+                      img(src="/images/Adress.png", alt="Insert Adress" id="Adress")
+                    .col-8.KontaktFoot
+                      p.footText Bodvägen 
+              .col-md-6
+                .container-fluid
+                  .row
+                    .col-4
+                      img(src="/images/Mejl.png", alt="Insert Mejl" id="Mejl")
+                    .col-8.KontaktFoot
+                      p.footText Mejl@Mejl.se
+
+        .col-md-2.col-sm-0

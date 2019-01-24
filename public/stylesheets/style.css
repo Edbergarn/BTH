@@ -1,0 +1,49 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding:  0px;
+}
+
+a {
+  color: white;
+  font: 2em "Oswald", Helvetica, Arial, sans-serif;
+}
+a:hover{
+  background-color: #10728C;
+  color:white;
+}
+.nav-item{
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+nav{
+  background-color: #1484AB;
+}
+.main{
+  background-color: #76D6D6;
+  font: 3em "Oswald", Helvetica, Arial, sans-serif;
+}
+.welcomeText{
+  font: 0.7em "Oswald", Helvetica, Arial, sans-serif;
+}
+.foot{
+  background-color: #314C50;
+  color: white;
+  font: 1.5em "Oswald", Helvetica, Arial, sans-serif;
+}
+#David{
+  margin-bottom: 2vh;
+  margin-top: 2vh;
+}
+#Adress, #Mejl{
+  float: right; 
+}
+.KontaktFoot{
+  padding-top: 2vh;
+}
+.welcome{
+  padding-top: 10vh;
+  background-color: #76D6D6;
+}
+.footText{
+  padding-bottom: 1vh;
+}
