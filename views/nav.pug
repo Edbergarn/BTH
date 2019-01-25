@@ -1,21 +1,20 @@
-nav(class="navbar navbar-expand-lg fixed-top")
+nav(class="navbar navbar-expand-lg sticky-top navbar-dark navbar-custom")
     .container-fluid
-        .col-md-2.col-sm-0
-        .col-md-8.col-sm-10.text-center
-            button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
+        .col-md-10.col-sm-10
+            button(class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
                 span(class="navbar-toggler-icon")
             div(class="collapse navbar-collapse" id="navbarNav")
                 ul.navbar-nav
                     li.nav-item
-                        a.nav-link(href="#") Startsida
+                        a.nav-link.text-white(href="/") Startsida
                     li.nav-item
-                        a.nav-link(href="#") Aktuellt
+                        a.nav-link.text-white(href="aktuellt") Aktuellt
                     li.nav-item
-                        a.nav-link(href="#") Bildteraputer
+                        a.nav-link.text-white(href="vibt") Bildteraputer
                     li.nav-item
-                        a.nav-link(href="#") Resurser/Länkar
+                        a.nav-link.text-white(href="rl") Resurser/Länkar
                     li.nav-item
-                        a.nav-link(href="#") Kontakt
+                        a.nav-link.text-white(href="contact") Kontakt
         .col-md-2.col-sm-2.text-center
             a.navbar-brand 
                 img.img-center(src='/images/BTHnew.png', alt="BTH" id="logo")

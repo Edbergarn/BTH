@@ -1,9 +1,10 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   padding:  0px;
+  background-color: rgb(191, 251, 255);
 }
 
-a {
+.nav-link{
   color: white;
   font: 2em "Oswald", Helvetica, Arial, sans-serif;
 }
@@ -19,11 +20,12 @@ nav{
   background-color: #1484AB;
 }
 .main{
-  background-color: #76D6D6;
-  font: 3em "Oswald", Helvetica, Arial, sans-serif;
+  background-color: #FFFFFF;
+  font: 2em "Oswald", Helvetica, Arial, sans-serif;
 }
 .welcomeText{
   font: 0.7em "Oswald", Helvetica, Arial, sans-serif;
+  text-decoration: none;
 }
 .foot{
   background-color: #314C50;
@@ -37,13 +39,32 @@ nav{
 #Adress, #Mejl{
   float: right; 
 }
+.map{
+  font: 1em "Oswald", Helvetica, Arial, sans-serif;
+  margin-left: 1vw;
+  text-decoration: underline;
+  color: white;
+}
 .KontaktFoot{
   padding-top: 2vh;
 }
-.welcome{
-  padding-top: 10vh;
-  background-color: #76D6D6;
-}
 .footText{
   padding-bottom: 1vh;
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255,255,255);
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.content{
+  box-shadow: 10px 10px 5px grey;
+}
+.contactText{
+  font: 0.8em "Oswald", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+.link{
+  text-decoration: underline;
+  color: black;
 }

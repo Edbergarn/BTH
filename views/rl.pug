@@ -1,0 +1,43 @@
+extends layout
+block content
+  .container-fluid
+    .row
+      .col-md-1.col-sm-0
+      .col-md-10.col-sm-12
+        .container-fluid.content
+          .row.main.text-center
+            .col-12
+              h1 Resurser och Länkar
+          .row.main
+            .col-md-3.text-center
+              img.img-fluid(src="/images/kontakt.png", alt="Insert kontakt" id="kontakt")
+            .col-md-9.contactText
+              h4 Bildterapiföreningar
+              p Sveriges Riksförbund för Bildterapeuter (SRBt) med ca 150 medlemmar organiserar utbildade bildterapeuter i Sverige 
+                a.link(href="www.bildterapi.se") www.bildterapi.se 
+                p Bildterapeutföreningen i Norrland(BiN) är en lokalavdelning till SRBtmed ett 40-tal medlemmar 
+                  a.link(href="www.bildterapinorr.se") www.bildterapinorr.se 
+              h4 Bildterapeututbildningar
+              p Vid Umeå universitet ges Specialistutbildning i bildterapi 45hp 
+                a.link(href="www.umu.se") www.umu.se
+                p Magisterprogram i bildterapi 60hp 
+                  a.link(href="www.umu.se") www.umu.se
+              p För information om privata utbildningsalternativ se 
+               a.link(href="www.bildterapi.se/utbildning") www.bildterapi.se/utbildning
+              h4 Litteratur om bildterapi
+              p Internationella tidskrifter:
+              p International Journal of Art Therapy (Inscape) - brittiska bildterapeutförbundets tidskrift The Arts in Psychotherapy – forskningstidskrift för bild-, musik-, dans- och dramaterapi Art Therapy OnLine (ATOL) 
+                a(href="#") Död länk
+              p International arts therapies journal 
+                a(href="#") Död länk
+              h4 Forskning och utveckling inom bildterapi
+              h5 I Sverige
+              p Vid Umeå universitet har tre bildterapeuter disputerat inom Pedagogiskt arbete/Genusforskarskola (Eva Skåréus), Omvårdnad/Genusforskarskola (Inger Öster) och inom Klinisk/Psykoterapi (Karin Egberg Thyme). För utförligare beskrivning av deras forskningsarbete se 
+                a.link(href="www.bildterapi.se/forskning") www.bildterapi.se/forskning
+              h5 Internationellt
+              p Amerikanska och brittiska bildterapeutförbunden informerar om aktuell forskning på sina respektive hemsidor:
+              a.link(href="https://arttherapy.org/") AATA<br>
+              a.link(href="https://www.baat.org/") BAAT
+
+          .row
+            include footer.pug

@@ -6,7 +6,10 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-
+var contactRouter = require('./routes/contact');
+var aktuelltRouter = require('./routes/aktuellt');
+var rlRouter = require('./routes/rl');
+var vibtRouter = require('./routes/vibt');
 var app = express();
 
 // view engine setup
@@ -22,6 +25,10 @@ app.use('/bootstrap' , express.static(__dirname + '/node_modules/bootstrap/dist/
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/contact', contactRouter);
+app.use('/aktuellt', aktuelltRouter);
+app.use('/rl', rlRouter);
+app.use('/vibt', vibtRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
