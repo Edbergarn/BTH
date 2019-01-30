@@ -19,3 +19,5 @@ Torsdag 24/1
 *Tweakat MainContent
 *Fixat NavbarJS
 
+Vecka 5 Planering
+*Onsdag och torsdag, fixa Vi Bildteraputer

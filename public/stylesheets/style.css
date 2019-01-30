@@ -2,6 +2,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   padding:  0px;
   background-color: rgb(191, 251, 255);
+  margin-bottom: 2vh;
 }
 
 .nav-link{
