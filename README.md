@@ -21,3 +21,6 @@ Torsdag 24/1
 
 Vecka 5 Planering
 *Onsdag och torsdag, fixa Vi Bildteraputer
+
+Gjort Onsdag vecka 5
+*Jobbat i VS Live Share med Renman, vi har jobabt på en lösning till "Vi bildteraputer" fliken.
