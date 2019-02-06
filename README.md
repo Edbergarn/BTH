@@ -23,4 +23,8 @@ Vecka 5 Planering
 *Onsdag och torsdag, fixa Vi Bildteraputer
 
 Gjort Onsdag vecka 5
-*Jobbat i VS Live Share med Renman, vi har jobabt på en lösning till "Vi bildteraputer" fliken.
+*Jobbat i VS Live Share med Renman, vi har jobbat på en lösning till "Vi bildteraputer" fliken.
+
+Gjort Torsdag vecka 5
+*Jobbat med about-backend.
+*Klar med backend, men ska implementera i min design senare.

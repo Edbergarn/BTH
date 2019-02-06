@@ -69,3 +69,22 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32
   text-decoration: underline;
   color: black;
 }
+/*About*/
+.card-text{
+  font-size: 0.65em;
+}
+.card-title{
+  font-size: 0.75em;
+}
+.btn{
+  font-size: 0.65em; 
+}
+.card-body{
+  padding: 1rem;
+}
+.selectedPortrait{
+  max-height: 20vh;
+}
+.selectedBig{
+  padding-top: 3vh;
+}

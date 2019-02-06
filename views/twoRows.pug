@@ -1,0 +1,22 @@
+extends layout
+block content
+  .container-fluid
+    .row
+      .col-md-1.col-sm-0
+      .col-md-10.col-sm-12
+        .container-fluid
+            .row.content.main
+                .col-1
+                .col-10
+                    .row.selectedBig
+                        block rowOne
+                .col-1
+            .row.content.main
+                block rowTwo
+            .row
+                include footer.pug
+
+
+
+
+      .col-md-1.col-sm-0

@@ -1,0 +1,39 @@
+extends twoRows
+mixin cards(members)
+  each member in members
+    .col-sm-4.p-1
+      .card
+        img.card-img-top(src= "/images/" + member[0], alt='Bild Saknas')
+        .card-body
+          h6.card-title #{member[1]}
+          p.card-text
+            | Jag erbjuder: <br>
+            each paragraph in member[2]
+              | #{paragraph}
+              br
+            
+          a.btn.btn-primary(href= "/about/" + member[1].replace(/\s/g,"-").toLowerCase()) Mer information 
+
+mixin printSelectedMember(selectedMember)
+  img.selectedPortrait(src="/images/" + selectedMember['portrait'], alt="Bild Saknas")
+  h1 #{selectedMember['name']}
+  +printParagraph(selectedMember['text'])
+  p.font-weight-bold Jag erbjuder:
+  +printParagraph(selectedMember['offer'])
+
+mixin printParagraph(para)
+  p
+  each paragraph in para
+    | <br>
+    | #{paragraph}
+    
+
+block rowTwo
+  .container
+    .row
+        +cards(members)
+    
+block rowOne
+  -if(selectedMember != null)
+    +printSelectedMember(selectedMember)
+  .mb-4
