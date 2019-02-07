@@ -1,90 +1,96 @@
+/* Coolors Exported Palette - coolors.co/bffbff-10728c-1484ab-314c50-ffffff */
+/* HSL */
+/* RGB */
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  padding:  0px;
-  background-color: rgb(191, 251, 255);
+  padding: 0px;
+  background-color: #bffbff;
   margin-bottom: 2vh;
 }
 
-.nav-link{
+/*Navbar */
+.nav-link {
   color: white;
   font: 2em "Oswald", Helvetica, Arial, sans-serif;
 }
-a:hover{
-  background-color: #10728C;
-  color:white;
+
+a:hover {
+  background-color: #10728c;
+  color: white;
 }
-.nav-item{
-  padding-left: 1vw;
-  padding-right: 1vw;
+
+nav {
+  background-color: #1484ab;
 }
-nav{
-  background-color: #1484AB;
-}
-.main{
-  background-color: #FFFFFF;
+
+/*maincontent */
+.main {
+  background-color: white;
   font: 2em "Oswald", Helvetica, Arial, sans-serif;
 }
-.welcomeText{
+
+.welcomeText {
   font: 0.7em "Oswald", Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
-.foot{
-  background-color: #314C50;
+
+/*Footer */
+.foot {
+  background-color: #314c50;
   color: white;
   font: 1.5em "Oswald", Helvetica, Arial, sans-serif;
 }
-#David{
-  margin-bottom: 2vh;
-  margin-top: 2vh;
+
+.KontaktFoot {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
 }
-#Adress, #Mejl{
-  float: right; 
-}
-.map{
+
+.map {
   font: 1em "Oswald", Helvetica, Arial, sans-serif;
   margin-left: 1vw;
   text-decoration: underline;
   color: white;
 }
-.KontaktFoot{
-  padding-top: 2vh;
+
+#Adress, #Mejl {
+  float: right;
 }
-.footText{
-  padding-bottom: 1vh;
+
+#David {
+  margin-bottom: 2vh;
+  margin-top: 2vh;
 }
+
 .custom-toggler.navbar-toggler {
-  border-color: rgb(255,255,255);
+  border-color: white;
 }
 .custom-toggler .navbar-toggler-icon {
-background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.content{
+
+.content {
   box-shadow: 10px 10px 5px grey;
 }
-.contactText{
+
+.contactText {
   font: 0.8em "Oswald", Helvetica, Arial, sans-serif;
   text-decoration: none;
 }
-.link{
+
+.link {
   text-decoration: underline;
   color: black;
 }
-/*About*/
-.card-text{
-  font-size: 0.65em;
-}
-.card-title{
-  font-size: 0.75em;
-}
-.btn{
-  font-size: 0.65em; 
-}
-.card-body{
-  padding: 1rem;
-}
-.selectedPortrait{
+
+/*About */
+.selectedPortrait {
   max-height: 20vh;
 }
-.selectedBig{
+
+.selectedBig {
   padding-top: 3vh;
+  font-size: 0.7em;
 }
+
+/*# sourceMappingURL=style.css.map */

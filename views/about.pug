@@ -3,10 +3,10 @@ mixin cards(members)
   each member in members
     .col-sm-4.p-1
       .card
-        img.card-img-top(src= "/images/" + member[0], alt='Bild Saknas')
+        +printPortrait(member[0])
         .card-body
           h6.card-title #{member[1]}
-          p.card-text
+          //p.card-text
             | Jag erbjuder: <br>
             each paragraph in member[2]
               | #{paragraph}
@@ -14,18 +14,29 @@ mixin cards(members)
             
           a.btn.btn-primary(href= "/about/" + member[1].replace(/\s/g,"-").toLowerCase()) Mer information 
 
+mixin printPortrait(portrait)
+  if portrait === ""
+    img.card-img-top(src= "https://via.placeholder.com/200", alt='Bild Saknas')
+  else
+    img.card-img-top(src= "/images/" + portrait, alt='Bild Saknas')
+    
+
 mixin printSelectedMember(selectedMember)
-  img.selectedPortrait(src="/images/" + selectedMember['portrait'], alt="Bild Saknas")
-  h1 #{selectedMember['name']}
-  +printParagraph(selectedMember['text'])
-  p.font-weight-bold Jag erbjuder:
-  +printParagraph(selectedMember['offer'])
+  .container
+    .row
+      .col-lg-4
+        img.img-fluid.selectedPortrait(src="/images/" + selectedMember['portrait'], alt="Bild Saknas")
+        p.font-weight-bold Jag erbjuder:
+        +printParagraph(selectedMember['offer'])
+      .col-lg-8
+        h1 #{selectedMember['name']}
+        +printParagraph(selectedMember['text'])
 
 mixin printParagraph(para)
   p
-  each paragraph in para
-    | <br>
-    | #{paragraph}
+    each paragraph in para
+      | #{paragraph}
+      | <br>
     
 
 block rowTwo

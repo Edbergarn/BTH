@@ -28,3 +28,7 @@ Gjort Onsdag vecka 5
 Gjort Torsdag vecka 5
 *Jobbat med about-backend.
 *Klar med backend, men ska implementera i min design senare.
+
+Gjort Torsdag vecka 6
+*Klar med mina Cards
+*Jobbat med sass.
