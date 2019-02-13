@@ -12,7 +12,7 @@ mixin cards(members)
               | #{paragraph}
               br
             
-          a.btn.btn-primary(href= "/about/" + member[1].replace(/\s/g,"-").toLowerCase()) Mer information 
+          a.btn.btn-primary(href= "/about/" + member[1].replace(/\s/g,"-").toLowerCase() title="Klicka här för mer information om " + member[1]) Mer information 
 
 mixin printPortrait(portrait)
   if portrait === ""

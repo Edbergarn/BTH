@@ -14,7 +14,7 @@ body {
   font: 2em "Oswald", Helvetica, Arial, sans-serif;
 }
 
-a:hover {
+.nav-link.a:hover {
   background-color: #10728c;
   color: white;
 }
@@ -49,7 +49,10 @@ nav {
 .map {
   font: 1em "Oswald", Helvetica, Arial, sans-serif;
   margin-left: 1vw;
-  text-decoration: underline;
+  color: white;
+}
+
+.map:hover {
   color: white;
 }
 
@@ -81,6 +84,19 @@ nav {
 .link {
   text-decoration: underline;
   color: black;
+}
+
+.link:hover {
+  background-color: grey;
+  color: white;
+}
+
+.maillink {
+  color: white;
+}
+
+.maillink:hover {
+  color: white;
 }
 
 /*About */
