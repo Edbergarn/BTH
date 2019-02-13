@@ -35,4 +35,4 @@ Gjort Torsdag vecka 6
 
 Vecka 7 Planering
 Onsdag Vecka 7
-*Heroku
+*Herokuapp
