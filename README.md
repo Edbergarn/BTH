@@ -32,3 +32,7 @@ Gjort Torsdag vecka 5
 Gjort Torsdag vecka 6
 *Klar med mina Cards
 *Jobbat med sass.
+
+Vecka 7 Planering
+Onsdag Vecka 7
+*Heroku
