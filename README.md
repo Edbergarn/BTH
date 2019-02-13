@@ -37,3 +37,7 @@ Vecka 7 Planering
 Onsdag Vecka 7
 *Herokuapp.
 *Små Stilfix
+
+Gjort Onsdag vecka 7
+*Heroku
+*Små fix
