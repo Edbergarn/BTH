@@ -24,9 +24,15 @@ nav {
 }
 
 /*maincontent */
+h1 {
+  padding-top: 2vh;
+  padding-bottom: 1vh;
+}
+
 .main {
   background-color: white;
   font: 2em "Oswald", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.02rem;
 }
 
 .welcomeText {
