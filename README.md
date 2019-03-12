@@ -41,3 +41,11 @@ Onsdag Vecka 7
 Gjort Onsdag vecka 7
 *Heroku
 *Små fix
+
+Gjort Torsdag vecka 8
+*Kollat på Blocket
+*Vänsterställt i princip allt
+*Tagit bort alla containrar som var i en container
+*Förstört min skugga genom att ta bort alla containrar
+*Ändrat layout utefter den feedback
+*Gjort koden mindre men med samma funktion

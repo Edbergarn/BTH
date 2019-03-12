@@ -1,17 +1,12 @@
 extends layout
 block content
   .container-fluid
-    .row
-      .col-md-1.col-sm-0
-      .col-md-10.col-sm-12
-        .container-fluid.content
-          .row.main.text-center
-            .col-12
+    .row.justify-content-center
+      .col-md-10.col-sm-12.content
+        .row.main.justify-content-center
+          .col-md-11.contactText
               h1 Resurser och Länkar
-          .row.main
-            .col-md-3.text-center
-              img.img-fluid(src="/images/kontakt.png", alt="Insert kontakt" id="kontakt")
-            .col-md-9.contactText
+              img.float-right(src="/images/kontakt.png", alt="Insert kontakt" id="kontakt")
               h4 Bildterapiföreningar
               p Sveriges Riksförbund för Bildterapeuter (SRBt) med ca 150 medlemmar organiserar utbildade bildterapeuter i Sverige 
                 a.link(href="www.bildterapi.se") www.bildterapi.se 
@@ -23,7 +18,7 @@ block content
                 p Magisterprogram i bildterapi 60hp 
                   a.link(href="www.umu.se") www.umu.se
               p För information om privata utbildningsalternativ se 
-               a.link(href="www.bildterapi.se/utbildning") www.bildterapi.se/utbildning
+              a.link(href="www.bildterapi.se/utbildning") www.bildterapi.se/utbildning
               h4 Litteratur om bildterapi
               p Internationella tidskrifter:
               p International Journal of Art Therapy (Inscape) - brittiska bildterapeutförbundets tidskrift The Arts in Psychotherapy – forskningstidskrift för bild-, musik-, dans- och dramaterapi Art Therapy OnLine (ATOL) 
@@ -38,6 +33,5 @@ block content
               p Amerikanska och brittiska bildterapeutförbunden informerar om aktuell forskning på sina respektive hemsidor:
               a.link(href="https://arttherapy.org/") AATA<br>
               a.link(href="https://www.baat.org/") BAAT
-
-          .row
-            include footer.pug
+        .row
+          include footer.pug

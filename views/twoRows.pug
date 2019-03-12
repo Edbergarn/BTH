@@ -1,22 +1,18 @@
 extends layout
 block content
   .container-fluid
-    .row
-      .col-md-1.col-sm-0
-      .col-md-10.col-sm-12
-        .container-fluid.content
-            .row.main
-                .col-1
-                .col-10
-                    .row.selectedBig
-                        block rowOne
-                .col-1
-            .row.main
-                block rowTwo
-            .row
-                include footer.pug
-
-
-
-
-      .col-md-1.col-sm-0
+    .row.justify-content-center
+      .col-md-10.col-sm-11.content
+        .row.main.justify-content-center
+            .col-md-11.col-sm-11
+              .row.justify-content-center
+                .col-md-12.col-sm-11.p-1
+                  h1 Lär dig om oss
+              .row.selectedBig.justify-content-center
+                .col-md-12.col-sm-11.p-1
+                  block rowOne
+              .row.main.justify-content-center
+                .col-md-12.col-sm-11
+                  block rowTwo
+        .row
+            include footer.pug

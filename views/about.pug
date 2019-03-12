@@ -1,7 +1,7 @@
 extends twoRows
 mixin cards(members)
   each member in members
-    .col-sm-4.p-1
+    .col-sm-2.p-1
       .card
         +printPortrait(member[0])
         .card-body
@@ -22,15 +22,15 @@ mixin printPortrait(portrait)
     
 
 mixin printSelectedMember(selectedMember)
-  .container
-    .row
-      .col-lg-4
-        img.img-fluid.selectedPortrait(src="/images/" + selectedMember['portrait'], alt="Bild Saknas")
-        p.font-weight-bold Jag erbjuder:
-        +printParagraph(selectedMember['offer'])
-      .col-lg-8
-        h1 #{selectedMember['name']}
-        +printParagraph(selectedMember['text'])
+  .row
+    .col-md-3
+      h2 #{selectedMember['name']}
+      img.selectedPortrait(src="/images/" + selectedMember['portrait'], alt="Bild Saknas")
+      p.font-weight-bold Jag erbjuder:
+      +printParagraph(selectedMember['offer'])
+    .col-md-9
+      h2 Om mig
+      +printParagraph(selectedMember['text'])
 
 mixin printParagraph(para)
   p
@@ -40,11 +40,9 @@ mixin printParagraph(para)
     
 
 block rowTwo
-  .container
-    .row
-        +cards(members)
+  .row
+      +cards(members)
     
 block rowOne
   -if(selectedMember != null)
     +printSelectedMember(selectedMember)
-  .mb-4
